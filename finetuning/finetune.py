@@ -333,8 +333,8 @@ def main():
         print(e)
 
     # Fine-tuning parameters.
-    finetune_epochs = 100
-    finetune_lr = 0.0005
+    finetune_epochs = 500
+    finetune_lr = 0.0001
     checkpoint_dir = "finetune_checkpoints"
     log_dir = "finetune_logs"
     vis_dir = "finetune_visualizations"
@@ -351,7 +351,7 @@ def main():
         weight_decay=1e-5,
         checkpoint_dir=checkpoint_dir,
         log_dir=log_dir,
-        patience=20,
+        patience=100,
         vis_dir=vis_dir,
         design_name=design_name 
     )

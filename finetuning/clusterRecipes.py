@@ -4,7 +4,7 @@ It will cluster the recipes using K-mediods clustering and find count number of 
 """
 
 DATASET = "../datasets/sin.csv"
-COUNT = 100
+COUNT = 200
 INITIAL_AREA = 5416
 
 import pandas as pd

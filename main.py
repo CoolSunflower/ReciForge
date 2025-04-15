@@ -182,7 +182,7 @@ class CircuitDataset(Dataset):
     """
     Dataset for circuit designs and recipes.
     """
-    def __init__(self, csv_path, designs_dir, init_area, transform=None):
+    def __init__(self, csv_path, designs_dir, init_area, transform=None, divide_int=True):
         """
         Args:
             csv_path (str): Path to the dataset CSV file
@@ -207,7 +207,10 @@ class CircuitDataset(Dataset):
                 
                 if step_col in row and area_col in row:
                     recipe.append(row[step_col])
-                    areas.append(row[area_col]/(init_area//2))
+                    if divide_int:
+                        areas.append(row[area_col]/(init_area//2))
+                    else:
+                        areas.append(row[area_col]/(init_area/2))
             
             self.recipes.append(recipe)
             self.areas.append(areas)

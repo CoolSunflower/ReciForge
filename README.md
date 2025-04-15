@@ -33,7 +33,7 @@ The detailed experimental results, training logs and test visualisations are ava
 
 main.py: Main training script. To run `python main.py {design-name}`. Ensure that {design-name}.bench file is located in the designs folder and {design-name}.csv is located in the datasets folder with relevant random simulations in the format similar to already present file.
 
-losses.py: Utility file used by main.py. It contains the main loss functions (both domain dependent and domain indepdent) that was used in the optimisation process.
+loss.py: Utility file used by main.py. It contains the main loss functions (both domain dependent and domain indepdent) that was used in the optimisation process.
 
 visualiser.py: Utility file used by main.py. It contains code for plotting the various graphs saved in the ExperimentalResults folder.
 
@@ -42,3 +42,5 @@ inference.py: Run inference for any recipe and any design (assuming trained mode
 ExperimentalResults/*: Contains subfolder for each design, each of which contains the tensorboard training logs, training visualisations, testing visualisations, and training logs.
 
 weights/*: Contains best weights for each of the fine-tuned designs.
+
+finetuning/*: Contains finetuning scripts and command information

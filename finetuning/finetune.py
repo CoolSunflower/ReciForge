@@ -327,7 +327,10 @@ def main():
         sys.exit(1)
 
     # Initial evaluation on best_model 
-    evaluate_model(best_model, val_loader, device, 'PreTrainingEvaluation')
+    try:
+        evaluate_model(best_model, val_loader, device, 'PreTrainingEvaluation')
+    except Exception as e:
+        print(e)
 
     # Fine-tuning parameters.
     finetune_epochs = 100

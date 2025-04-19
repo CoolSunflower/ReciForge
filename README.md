@@ -44,3 +44,15 @@ ExperimentalResults/*: Contains subfolder for each design, each of which contain
 weights/*: Contains best weights for each of the fine-tuned designs.
 
 finetuning/*: Contains finetuning scripts and command information
+
+
+## Finetuning
+
+Refer to the README file in finetuning folder
+
+## Optimal Recipe Prediction
+
+Usage:
+    python optimize_recipe.py {design_name} --method {greedy|mcts} --length LENGTH 
+        [--iterations ITERATIONS] [--exploration FACTOR] [--initial_area INITIAL_AREA] 
+        [--output OUTPUT_FILE] [--parallel WORKERS]

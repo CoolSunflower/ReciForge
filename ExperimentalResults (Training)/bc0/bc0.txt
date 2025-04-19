@@ -1,0 +1,561 @@
+Using device: cuda
+Epoch 1/75 completed in 95.25s
+Train Loss: 4.4983, Val Loss: -0.2514
+Loss breakdown:
+  Train attention_entropy: 2.9957, Val attention_entropy: 2.9957
+  Train critical_step_loss: 1.0808, Val critical_step_loss: 0.2086
+  Train feature_consistency: 0.2370, Val feature_consistency: 0.2624
+  Train final_loss: 0.0846, Val final_loss: 0.0021
+  Train rel_area_loss: 2.5747, Val rel_area_loss: 0.0013
+  Train seq_dep_loss: 1.3526, Val seq_dep_loss: 0.0491
+  Train step_loss: 1.2462, Val step_loss: 0.0490
+  Train uncertainty_loss: -1.1633, Val uncertainty_loss: -2.4275
+Learning Rate: 0.0009995614150494292
+Model saved to checkpoints/model_epoch_1_bc0.pt
+Epoch 2/75 completed in 95.03s
+Train Loss: -0.2423, Val Loss: -0.6008
+Loss breakdown:
+  Train attention_entropy: 2.7137, Val attention_entropy: 0.0140
+  Train critical_step_loss: 0.0990, Val critical_step_loss: 0.1805
+  Train feature_consistency: 0.2404, Val feature_consistency: 0.2624
+  Train final_loss: 0.0054, Val final_loss: 0.0017
+  Train rel_area_loss: 0.0124, Val rel_area_loss: 0.0006
+  Train seq_dep_loss: 0.0195, Val seq_dep_loss: 0.1012
+  Train step_loss: 0.0187, Val step_loss: 0.0337
+  Train uncertainty_loss: -2.1061, Val uncertainty_loss: -2.5506
+Learning Rate: 0.0009982464296247522
+Model saved to checkpoints/model_epoch_2_bc0.pt
+Epoch 3/75 completed in 95.11s
+Train Loss: -0.6331, Val Loss: -0.6154
+Loss breakdown:
+  Train attention_entropy: 0.0246, Val attention_entropy: 0.0233
+  Train critical_step_loss: 0.0703, Val critical_step_loss: 0.0643
+  Train feature_consistency: 0.2361, Val feature_consistency: 0.2624
+  Train final_loss: 0.0027, Val final_loss: 0.0034
+  Train rel_area_loss: 0.0052, Val rel_area_loss: 0.0004
+  Train seq_dep_loss: 0.0131, Val seq_dep_loss: 0.0069
+  Train step_loss: 0.0088, Val step_loss: 0.0059
+  Train uncertainty_loss: -2.4101, Val uncertainty_loss: -2.3350
+Learning Rate: 0.000996057350657239
+Model saved to checkpoints/model_epoch_3_bc0.pt
+Epoch 4/75 completed in 95.07s
+Train Loss: -0.7594, Val Loss: -0.1668
+Loss breakdown:
+  Train attention_entropy: 0.0213, Val attention_entropy: 0.0137
+  Train critical_step_loss: 0.0594, Val critical_step_loss: 0.0296
+  Train feature_consistency: 0.2357, Val feature_consistency: 0.2624
+  Train final_loss: 0.0013, Val final_loss: 0.0035
+  Train rel_area_loss: 0.0037, Val rel_area_loss: 0.0003
+  Train seq_dep_loss: 0.0076, Val seq_dep_loss: 0.0020
+  Train step_loss: 0.0062, Val step_loss: 0.0019
+  Train uncertainty_loss: -2.7974, Val uncertainty_loss: -0.7857
+Learning Rate: 0.0009929980185352525
+Model saved to checkpoints/model_epoch_4_bc0.pt
+Validation loss did not improve. Early stop counter: 1/15
+Epoch 5/75 completed in 96.02s
+Train Loss: -0.8356, Val Loss: -0.0020
+Loss breakdown:
+  Train attention_entropy: 0.0096, Val attention_entropy: 0.0183
+  Train critical_step_loss: 0.0458, Val critical_step_loss: 0.0271
+  Train feature_consistency: 0.2330, Val feature_consistency: 0.2624
+  Train final_loss: 0.0009, Val final_loss: 0.0040
+  Train rel_area_loss: 0.0026, Val rel_area_loss: 0.0003
+  Train seq_dep_loss: 0.0041, Val seq_dep_loss: 0.0017
+  Train step_loss: 0.0038, Val step_loss: 0.0016
+  Train uncertainty_loss: -3.0165, Val uncertainty_loss: -0.2357
+Learning Rate: 0.0009890738003669028
+Model saved to checkpoints/model_epoch_5_bc0.pt
+Validation loss did not improve. Early stop counter: 2/15
+Epoch 6/75 completed in 95.41s
+Train Loss: -0.8495, Val Loss: 0.2324
+Loss breakdown:
+  Train attention_entropy: 0.0084, Val attention_entropy: 0.0048
+  Train critical_step_loss: 0.0485, Val critical_step_loss: 0.0487
+  Train feature_consistency: 0.2363, Val feature_consistency: 0.2624
+  Train final_loss: 0.0007, Val final_loss: 0.0033
+  Train rel_area_loss: 0.0020, Val rel_area_loss: 0.0003
+  Train seq_dep_loss: 0.0045, Val seq_dep_loss: 0.0048
+  Train step_loss: 0.0040, Val step_loss: 0.0041
+  Train uncertainty_loss: -3.0660, Val uncertainty_loss: 0.5202
+Learning Rate: 0.0009842915805643154
+Model saved to checkpoints/model_epoch_6_bc0.pt
+Validation loss did not improve. Early stop counter: 3/15
+Epoch 7/75 completed in 95.82s
+Train Loss: -0.9146, Val Loss: -0.9224
+Loss breakdown:
+  Train attention_entropy: 0.0057, Val attention_entropy: 0.0036
+  Train critical_step_loss: 0.0469, Val critical_step_loss: 0.0643
+  Train feature_consistency: 0.2405, Val feature_consistency: 0.2624
+  Train final_loss: 0.0005, Val final_loss: 0.0005
+  Train rel_area_loss: 0.0015, Val rel_area_loss: 0.0003
+  Train seq_dep_loss: 0.0043, Val seq_dep_loss: 0.0061
+  Train step_loss: 0.0039, Val step_loss: 0.0054
+  Train uncertainty_loss: -3.2800, Val uncertainty_loss: -3.3396
+Learning Rate: 0.0009786597487660333
+Model saved to checkpoints/model_epoch_7_bc0.pt
+Epoch 8/75 completed in 96.70s
+Train Loss: -0.8944, Val Loss: -0.7804
+Loss breakdown:
+  Train attention_entropy: 0.0053, Val attention_entropy: 0.0044
+  Train critical_step_loss: 0.0595, Val critical_step_loss: 0.1500
+  Train feature_consistency: 0.2390, Val feature_consistency: 0.2624
+  Train final_loss: 0.0005, Val final_loss: 0.0006
+  Train rel_area_loss: 0.0012, Val rel_area_loss: 0.0003
+  Train seq_dep_loss: 0.0068, Val seq_dep_loss: 0.0326
+  Train step_loss: 0.0057, Val step_loss: 0.0237
+  Train uncertainty_loss: -3.2311, Val uncertainty_loss: -3.0315
+Learning Rate: 0.0009721881851187403
+Model saved to checkpoints/model_epoch_8_bc0.pt
+Validation loss did not improve. Early stop counter: 1/15
+Epoch 9/75 completed in 96.99s
+Train Loss: -0.9258, Val Loss: -0.9130
+Loss breakdown:
+  Train attention_entropy: 0.0039, Val attention_entropy: 0.0047
+  Train critical_step_loss: 0.0452, Val critical_step_loss: 0.0295
+  Train feature_consistency: 0.2361, Val feature_consistency: 0.2624
+  Train final_loss: 0.0005, Val final_loss: 0.0006
+  Train rel_area_loss: 0.0009, Val rel_area_loss: 0.0003
+  Train seq_dep_loss: 0.0037, Val seq_dep_loss: 0.0017
+  Train step_loss: 0.0034, Val step_loss: 0.0017
+  Train uncertainty_loss: -3.3087, Val uncertainty_loss: -3.2592
+Learning Rate: 0.0009648882429441254
+Model saved to checkpoints/model_epoch_9_bc0.pt
+Validation loss did not improve. Early stop counter: 2/15
+Epoch 10/75 completed in 95.89s
+Train Loss: -0.9427, Val Loss: -0.8441
+Loss breakdown:
+  Train attention_entropy: 0.0035, Val attention_entropy: 0.0027
+  Train critical_step_loss: 0.0413, Val critical_step_loss: 0.0543
+  Train feature_consistency: 0.2374, Val feature_consistency: 0.2624
+  Train final_loss: 0.0005, Val final_loss: 0.0007
+  Train rel_area_loss: 0.0008, Val rel_area_loss: 0.0003
+  Train seq_dep_loss: 0.0035, Val seq_dep_loss: 0.0044
+  Train step_loss: 0.0031, Val step_loss: 0.0041
+  Train uncertainty_loss: -3.3598, Val uncertainty_loss: -3.0635
+Learning Rate: 0.0009567727288213001
+Model saved to checkpoints/model_epoch_10_bc0.pt
+Validation loss did not improve. Early stop counter: 3/15
+Epoch 11/75 completed in 95.55s
+Train Loss: -0.9434, Val Loss: -0.6929
+Loss breakdown:
+  Train attention_entropy: 0.0023, Val attention_entropy: 0.0017
+  Train critical_step_loss: 0.0327, Val critical_step_loss: 0.0920
+  Train feature_consistency: 0.2399, Val feature_consistency: 0.2624
+  Train final_loss: 0.0005, Val final_loss: 0.0010
+  Train rel_area_loss: 0.0007, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0021, Val seq_dep_loss: 0.0112
+  Train step_loss: 0.0020, Val step_loss: 0.0097
+  Train uncertainty_loss: -3.3500, Val uncertainty_loss: -2.6213
+Learning Rate: 0.0009478558801197062
+Model saved to checkpoints/model_epoch_11_bc0.pt
+Validation loss did not improve. Early stop counter: 4/15
+Epoch 12/75 completed in 95.42s
+Train Loss: -0.9468, Val Loss: -0.9368
+Loss breakdown:
+  Train attention_entropy: 0.0017, Val attention_entropy: 0.0022
+  Train critical_step_loss: 0.0337, Val critical_step_loss: 0.0415
+  Train feature_consistency: 0.2343, Val feature_consistency: 0.2624
+  Train final_loss: 0.0004, Val final_loss: 0.0005
+  Train rel_area_loss: 0.0006, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0022, Val seq_dep_loss: 0.0028
+  Train step_loss: 0.0021, Val step_loss: 0.0027
+  Train uncertainty_loss: -3.3583, Val uncertainty_loss: -3.3530
+Learning Rate: 0.0009381533400219316
+Model saved to checkpoints/model_epoch_12_bc0.pt
+Epoch 13/75 completed in 98.19s
+Train Loss: -0.9435, Val Loss: -0.9279
+Loss breakdown:
+  Train attention_entropy: 0.0015, Val attention_entropy: 0.0009
+  Train critical_step_loss: 0.0349, Val critical_step_loss: 0.0861
+  Train feature_consistency: 0.2371, Val feature_consistency: 0.2624
+  Train final_loss: 0.0005, Val final_loss: 0.0004
+  Train rel_area_loss: 0.0005, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0023, Val seq_dep_loss: 0.0100
+  Train step_loss: 0.0022, Val step_loss: 0.0088
+  Train uncertainty_loss: -3.3507, Val uncertainty_loss: -3.3926
+Learning Rate: 0.0009276821300802532
+Model saved to checkpoints/model_epoch_13_bc0.pt
+Validation loss did not improve. Early stop counter: 1/15
+Epoch 14/75 completed in 97.49s
+Train Loss: -0.9656, Val Loss: -0.9394
+Loss breakdown:
+  Train attention_entropy: 0.0011, Val attention_entropy: 0.0010
+  Train critical_step_loss: 0.0350, Val critical_step_loss: 0.0454
+  Train feature_consistency: 0.2383, Val feature_consistency: 0.2624
+  Train final_loss: 0.0004, Val final_loss: 0.0005
+  Train rel_area_loss: 0.0004, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0023, Val seq_dep_loss: 0.0035
+  Train step_loss: 0.0022, Val step_loss: 0.0033
+  Train uncertainty_loss: -3.4246, Val uncertainty_loss: -3.3678
+Learning Rate: 0.0009164606203550496
+Model saved to checkpoints/model_epoch_14_bc0.pt
+Epoch 15/75 completed in 97.61s
+Train Loss: -0.9355, Val Loss: -0.9480
+Loss breakdown:
+  Train attention_entropy: 0.0011, Val attention_entropy: 0.0015
+  Train critical_step_loss: 0.0281, Val critical_step_loss: 0.0554
+  Train feature_consistency: 0.2395, Val feature_consistency: 0.2624
+  Train final_loss: 0.0005, Val final_loss: 0.0004
+  Train rel_area_loss: 0.0004, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0015, Val seq_dep_loss: 0.0043
+  Train step_loss: 0.0014, Val step_loss: 0.0040
+  Train uncertainty_loss: -3.3153, Val uncertainty_loss: -3.4092
+Learning Rate: 0.0009045084971874736
+Model saved to checkpoints/model_epoch_15_bc0.pt
+Epoch 16/75 completed in 96.74s
+Train Loss: -0.9750, Val Loss: -0.8857
+Loss breakdown:
+  Train attention_entropy: 0.0007, Val attention_entropy: 0.0006
+  Train critical_step_loss: 0.0261, Val critical_step_loss: 0.0582
+  Train feature_consistency: 0.2426, Val feature_consistency: 0.2624
+  Train final_loss: 0.0004, Val final_loss: 0.0005
+  Train rel_area_loss: 0.0004, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0013, Val seq_dep_loss: 0.0048
+  Train step_loss: 0.0013, Val step_loss: 0.0045
+  Train uncertainty_loss: -3.4459, Val uncertainty_loss: -3.2064
+Learning Rate: 0.0008918467286629198
+Model saved to checkpoints/model_epoch_16_bc0.pt
+Validation loss did not improve. Early stop counter: 1/15
+Epoch 17/75 completed in 97.29s
+Train Loss: -0.9705, Val Loss: -0.9454
+Loss breakdown:
+  Train attention_entropy: 0.0006, Val attention_entropy: 0.0007
+  Train critical_step_loss: 0.0309, Val critical_step_loss: 0.0442
+  Train feature_consistency: 0.2423, Val feature_consistency: 0.2624
+  Train final_loss: 0.0004, Val final_loss: 0.0004
+  Train rel_area_loss: 0.0004, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0018, Val seq_dep_loss: 0.0031
+  Train step_loss: 0.0017, Val step_loss: 0.0029
+  Train uncertainty_loss: -3.4370, Val uncertainty_loss: -3.3842
+Learning Rate: 0.0008784975278258781
+Model saved to checkpoints/model_epoch_17_bc0.pt
+Validation loss did not improve. Early stop counter: 2/15
+Epoch 18/75 completed in 96.85s
+Train Loss: -0.9745, Val Loss: -0.7959
+Loss breakdown:
+  Train attention_entropy: 0.0005, Val attention_entropy: 0.0004
+  Train critical_step_loss: 0.0287, Val critical_step_loss: 0.0312
+  Train feature_consistency: 0.2413, Val feature_consistency: 0.2624
+  Train final_loss: 0.0004, Val final_loss: 0.0009
+  Train rel_area_loss: 0.0005, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0015, Val seq_dep_loss: 0.0017
+  Train step_loss: 0.0015, Val step_loss: 0.0016
+  Train uncertainty_loss: -3.4470, Val uncertainty_loss: -2.8693
+Learning Rate: 0.0008644843137107056
+Model saved to checkpoints/model_epoch_18_bc0.pt
+Validation loss did not improve. Early stop counter: 3/15
+Epoch 19/75 completed in 96.92s
+Train Loss: -0.9812, Val Loss: -0.8905
+Loss breakdown:
+  Train attention_entropy: 0.0004, Val attention_entropy: 0.0002
+  Train critical_step_loss: 0.0259, Val critical_step_loss: 0.0600
+  Train feature_consistency: 0.2405, Val feature_consistency: 0.2624
+  Train final_loss: 0.0004, Val final_loss: 0.0006
+  Train rel_area_loss: 0.0003, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0012, Val seq_dep_loss: 0.0051
+  Train step_loss: 0.0012, Val step_loss: 0.0048
+  Train uncertainty_loss: -3.4639, Val uncertainty_loss: -3.2251
+Learning Rate: 0.0008498316702566826
+Model saved to checkpoints/model_epoch_19_bc0.pt
+Validation loss did not improve. Early stop counter: 4/15
+Epoch 20/75 completed in 96.56s
+Train Loss: -0.9834, Val Loss: -0.8924
+Loss breakdown:
+  Train attention_entropy: 0.0004, Val attention_entropy: 0.0002
+  Train critical_step_loss: 0.0263, Val critical_step_loss: 0.0478
+  Train feature_consistency: 0.2385, Val feature_consistency: 0.2624
+  Train final_loss: 0.0004, Val final_loss: 0.0005
+  Train rel_area_loss: 0.0003, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0012, Val seq_dep_loss: 0.0033
+  Train step_loss: 0.0012, Val step_loss: 0.0032
+  Train uncertainty_loss: -3.4701, Val uncertainty_loss: -3.2126
+Learning Rate: 0.0008345653031794289
+Model saved to checkpoints/model_epoch_20_bc0.pt
+Validation loss did not improve. Early stop counter: 5/15
+Epoch 21/75 completed in 97.29s
+Train Loss: -0.9891, Val Loss: -0.7966
+Loss breakdown:
+  Train attention_entropy: 0.0004, Val attention_entropy: 0.0004
+  Train critical_step_loss: 0.0318, Val critical_step_loss: 0.0273
+  Train feature_consistency: 0.2387, Val feature_consistency: 0.2624
+  Train final_loss: 0.0004, Val final_loss: 0.0008
+  Train rel_area_loss: 0.0003, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0019, Val seq_dep_loss: 0.0013
+  Train step_loss: 0.0018, Val step_loss: 0.0012
+  Train uncertainty_loss: -3.4973, Val uncertainty_loss: -2.8658
+Learning Rate: 0.0008187119948743447
+Model saved to checkpoints/model_epoch_21_bc0.pt
+Validation loss did not improve. Early stop counter: 6/15
+Epoch 22/75 completed in 96.45s
+Train Loss: -0.9903, Val Loss: -0.6730
+Loss breakdown:
+  Train attention_entropy: 0.0004, Val attention_entropy: 0.0003
+  Train critical_step_loss: 0.0244, Val critical_step_loss: 0.0292
+  Train feature_consistency: 0.2367, Val feature_consistency: 0.2624
+  Train final_loss: 0.0004, Val final_loss: 0.0010
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0010, Val seq_dep_loss: 0.0016
+  Train step_loss: 0.0010, Val step_loss: 0.0016
+  Train uncertainty_loss: -3.4892, Val uncertainty_loss: -2.4576
+Learning Rate: 0.0008022995574311873
+Model saved to checkpoints/model_epoch_22_bc0.pt
+Validation loss did not improve. Early stop counter: 7/15
+Epoch 23/75 completed in 96.42s
+Train Loss: -0.9880, Val Loss: -0.8917
+Loss breakdown:
+  Train attention_entropy: 0.0002, Val attention_entropy: 0.0003
+  Train critical_step_loss: 0.0251, Val critical_step_loss: 0.0385
+  Train feature_consistency: 0.2405, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0004
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0012, Val seq_dep_loss: 0.0027
+  Train step_loss: 0.0011, Val step_loss: 0.0026
+  Train uncertainty_loss: -3.4853, Val uncertainty_loss: -3.1986
+Learning Rate: 0.0007853567838422157
+Model saved to checkpoints/model_epoch_23_bc0.pt
+Validation loss did not improve. Early stop counter: 8/15
+Epoch 24/75 completed in 96.75s
+Train Loss: -0.9933, Val Loss: -0.9982
+Loss breakdown:
+  Train attention_entropy: 0.0003, Val attention_entropy: 0.0002
+  Train critical_step_loss: 0.0222, Val critical_step_loss: 0.0224
+  Train feature_consistency: 0.2389, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0003
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0009, Val seq_dep_loss: 0.0009
+  Train step_loss: 0.0008, Val step_loss: 0.0009
+  Train uncertainty_loss: -3.4978, Val uncertainty_loss: -3.5296
+Learning Rate: 0.000767913397489498
+Model saved to checkpoints/model_epoch_24_bc0.pt
+Epoch 25/75 completed in 99.27s
+Train Loss: -1.0001, Val Loss: -1.0123
+Loss breakdown:
+  Train attention_entropy: 0.0003, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0247, Val critical_step_loss: 0.0220
+  Train feature_consistency: 0.2340, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0003
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0011, Val seq_dep_loss: 0.0009
+  Train step_loss: 0.0010, Val step_loss: 0.0008
+  Train uncertainty_loss: -3.5205, Val uncertainty_loss: -3.5760
+Learning Rate: 0.0007499999999999997
+Model saved to checkpoints/model_epoch_25_bc0.pt
+Epoch 26/75 completed in 99.63s
+Train Loss: -1.0099, Val Loss: -0.7313
+Loss breakdown:
+  Train attention_entropy: 0.0002, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0246, Val critical_step_loss: 0.0401
+  Train feature_consistency: 0.2332, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0007
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0011, Val seq_dep_loss: 0.0032
+  Train step_loss: 0.0010, Val step_loss: 0.0030
+  Train uncertainty_loss: -3.5523, Val uncertainty_loss: -2.6679
+Learning Rate: 0.0007316480175599306
+Model saved to checkpoints/model_epoch_26_bc0.pt
+Validation loss did not improve. Early stop counter: 1/15
+Epoch 27/75 completed in 97.38s
+Train Loss: -1.0180, Val Loss: -0.9717
+Loss breakdown:
+  Train attention_entropy: 0.0003, Val attention_entropy: 0.0002
+  Train critical_step_loss: 0.0215, Val critical_step_loss: 0.0274
+  Train feature_consistency: 0.2370, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0004
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0008, Val seq_dep_loss: 0.0013
+  Train step_loss: 0.0008, Val step_loss: 0.0013
+  Train uncertainty_loss: -3.5776, Val uncertainty_loss: -3.4484
+Learning Rate: 0.000712889645782536
+Model saved to checkpoints/model_epoch_27_bc0.pt
+Validation loss did not improve. Early stop counter: 2/15
+Epoch 28/75 completed in 99.03s
+Train Loss: -1.0159, Val Loss: -0.8754
+Loss breakdown:
+  Train attention_entropy: 0.0002, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0220, Val critical_step_loss: 0.0335
+  Train feature_consistency: 0.2381, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0006
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0002
+  Train seq_dep_loss: 0.0009, Val seq_dep_loss: 0.0021
+  Train step_loss: 0.0008, Val step_loss: 0.0020
+  Train uncertainty_loss: -3.5721, Val uncertainty_loss: -3.1369
+Learning Rate: 0.0006937577932260512
+Model saved to checkpoints/model_epoch_28_bc0.pt
+Validation loss did not improve. Early stop counter: 3/15
+Epoch 29/75 completed in 97.73s
+Train Loss: -1.0218, Val Loss: -0.8542
+Loss breakdown:
+  Train attention_entropy: 0.0002, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0212, Val critical_step_loss: 0.0310
+  Train feature_consistency: 0.2384, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0006
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0008, Val seq_dep_loss: 0.0018
+  Train step_loss: 0.0008, Val step_loss: 0.0017
+  Train uncertainty_loss: -3.5909, Val uncertainty_loss: -3.0624
+Learning Rate: 0.0006742860236609074
+Model saved to checkpoints/model_epoch_29_bc0.pt
+Validation loss did not improve. Early stop counter: 4/15
+Epoch 30/75 completed in 97.61s
+Train Loss: -1.0135, Val Loss: -0.7977
+Loss breakdown:
+  Train attention_entropy: 0.0002, Val attention_entropy: 0.0003
+  Train critical_step_loss: 0.0279, Val critical_step_loss: 0.0258
+  Train feature_consistency: 0.2429, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0008
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0016, Val seq_dep_loss: 0.0012
+  Train step_loss: 0.0015, Val step_loss: 0.0011
+  Train uncertainty_loss: -3.5759, Val uncertainty_loss: -2.8676
+Learning Rate: 0.0006545084971874735
+Model saved to checkpoints/model_epoch_30_bc0.pt
+Validation loss did not improve. Early stop counter: 5/15
+Epoch 31/75 completed in 97.68s
+Train Loss: -1.0284, Val Loss: -0.7619
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0200, Val critical_step_loss: 0.0325
+  Train feature_consistency: 0.2391, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0005
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0007, Val seq_dep_loss: 0.0019
+  Train step_loss: 0.0007, Val step_loss: 0.0019
+  Train uncertainty_loss: -3.6117, Val uncertainty_loss: -2.7568
+Learning Rate: 0.0006344599103076326
+Model saved to checkpoints/model_epoch_31_bc0.pt
+Validation loss did not improve. Early stop counter: 6/15
+Epoch 32/75 completed in 97.76s
+Train Loss: -1.0119, Val Loss: -0.9618
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0218, Val critical_step_loss: 0.0212
+  Train feature_consistency: 0.2389, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0004
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0009, Val seq_dep_loss: 0.0007
+  Train step_loss: 0.0008, Val step_loss: 0.0007
+  Train uncertainty_loss: -3.5590, Val uncertainty_loss: -3.4066
+Learning Rate: 0.0006141754350553277
+Model saved to checkpoints/model_epoch_32_bc0.pt
+Validation loss did not improve. Early stop counter: 7/15
+Epoch 33/75 completed in 97.78s
+Train Loss: -1.0241, Val Loss: -0.9003
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0193, Val critical_step_loss: 0.0197
+  Train feature_consistency: 0.2409, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0005
+  Train rel_area_loss: 0.0002, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0007, Val seq_dep_loss: 0.0007
+  Train step_loss: 0.0007, Val step_loss: 0.0007
+  Train uncertainty_loss: -3.5976, Val uncertainty_loss: -3.2006
+Learning Rate: 0.0005936906572928622
+Model saved to checkpoints/model_epoch_33_bc0.pt
+Validation loss did not improve. Early stop counter: 8/15
+Epoch 34/75 completed in 98.04s
+Train Loss: -1.0286, Val Loss: -0.9766
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0174, Val critical_step_loss: 0.0227
+  Train feature_consistency: 0.2392, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0004
+  Train rel_area_loss: 0.0001, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0005, Val seq_dep_loss: 0.0011
+  Train step_loss: 0.0005, Val step_loss: 0.0010
+  Train uncertainty_loss: -3.6090, Val uncertainty_loss: -3.4587
+Learning Rate: 0.0005730415142812057
+Model saved to checkpoints/model_epoch_34_bc0.pt
+Validation loss did not improve. Early stop counter: 9/15
+Epoch 35/75 completed in 97.83s
+Train Loss: -1.0323, Val Loss: -0.8934
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0171, Val critical_step_loss: 0.0198
+  Train feature_consistency: 0.2391, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0005
+  Train rel_area_loss: 0.0001, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0005, Val seq_dep_loss: 0.0008
+  Train step_loss: 0.0005, Val step_loss: 0.0008
+  Train uncertainty_loss: -3.6208, Val uncertainty_loss: -3.1777
+Learning Rate: 0.0005522642316338267
+Model saved to checkpoints/model_epoch_35_bc0.pt
+Validation loss did not improve. Early stop counter: 10/15
+Epoch 36/75 completed in 97.50s
+Train Loss: -1.0417, Val Loss: -0.9196
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0176, Val critical_step_loss: 0.0240
+  Train feature_consistency: 0.2381, Val feature_consistency: 0.2624
+  Train final_loss: 0.0003, Val final_loss: 0.0005
+  Train rel_area_loss: 0.0001, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0006, Val seq_dep_loss: 0.0012
+  Train step_loss: 0.0005, Val step_loss: 0.0012
+  Train uncertainty_loss: -3.6522, Val uncertainty_loss: -3.2709
+Learning Rate: 0.0005313952597646566
+Model saved to checkpoints/model_epoch_36_bc0.pt
+Validation loss did not improve. Early stop counter: 11/15
+Epoch 37/75 completed in 97.65s
+Train Loss: -1.0488, Val Loss: -0.9263
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0169, Val critical_step_loss: 0.0255
+  Train feature_consistency: 0.2399, Val feature_consistency: 0.2624
+  Train final_loss: 0.0002, Val final_loss: 0.0004
+  Train rel_area_loss: 0.0001, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0005, Val seq_dep_loss: 0.0013
+  Train step_loss: 0.0005, Val step_loss: 0.0013
+  Train uncertainty_loss: -3.6761, Val uncertainty_loss: -3.2952
+Learning Rate: 0.0005104712099416783
+Model saved to checkpoints/model_epoch_37_bc0.pt
+Validation loss did not improve. Early stop counter: 12/15
+Epoch 38/75 completed in 99.27s
+Train Loss: -1.0442, Val Loss: -0.8260
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0162, Val critical_step_loss: 0.0334
+  Train feature_consistency: 0.2385, Val feature_consistency: 0.2624
+  Train final_loss: 0.0002, Val final_loss: 0.0007
+  Train rel_area_loss: 0.0001, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0005, Val seq_dep_loss: 0.0020
+  Train step_loss: 0.0005, Val step_loss: 0.0019
+  Train uncertainty_loss: -3.6589, Val uncertainty_loss: -2.9720
+Learning Rate: 0.0004895287900583214
+Model saved to checkpoints/model_epoch_38_bc0.pt
+Validation loss did not improve. Early stop counter: 13/15
+Epoch 39/75 completed in 99.83s
+Train Loss: -1.0505, Val Loss: -0.6734
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0000
+  Train critical_step_loss: 0.0176, Val critical_step_loss: 0.0312
+  Train feature_consistency: 0.2382, Val feature_consistency: 0.2624
+  Train final_loss: 0.0002, Val final_loss: 0.0008
+  Train rel_area_loss: 0.0001, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0006, Val seq_dep_loss: 0.0019
+  Train step_loss: 0.0005, Val step_loss: 0.0018
+  Train uncertainty_loss: -3.6815, Val uncertainty_loss: -2.4610
+Learning Rate: 0.0004686047402353432
+Model saved to checkpoints/model_epoch_39_bc0.pt
+Validation loss did not improve. Early stop counter: 14/15
+Epoch 40/75 completed in 98.11s
+Train Loss: -1.0526, Val Loss: -0.9167
+Loss breakdown:
+  Train attention_entropy: 0.0001, Val attention_entropy: 0.0001
+  Train critical_step_loss: 0.0154, Val critical_step_loss: 0.0228
+  Train feature_consistency: 0.2360, Val feature_consistency: 0.2624
+  Train final_loss: 0.0002, Val final_loss: 0.0003
+  Train rel_area_loss: 0.0001, Val rel_area_loss: 0.0001
+  Train seq_dep_loss: 0.0004, Val seq_dep_loss: 0.0010
+  Train step_loss: 0.0004, Val step_loss: 0.0009
+  Train uncertainty_loss: -3.6843, Val uncertainty_loss: -3.2586
+Learning Rate: 0.00044773576836617315
+Model saved to checkpoints/model_epoch_40_bc0.pt
+Validation loss did not improve. Early stop counter: 15/15
+Early stopping at epoch 40
+Evaluating: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [01:00<00:00,  1.28s/it, loss=0.0022, final_loss=0.0007, step_loss=0.0030]
+Test Loss: 0.0022
+Test Final Loss: 0.0007
+Test Step Loss: 0.0030
+Test MSE: 0.0030
+Test RMSE: 0.0544
+Test MAE: 0.0418
+Mean R² Score: 0.2590

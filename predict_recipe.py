@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 """
-optimize_recipe.py
-
 Finds optimized synthesis recipes using QoR prediction models.
 Usage:
-    python optimize_recipe.py {design_name} --method {greedy|mcts|ppo} --length LENGTH 
+    python predict_recipe.py {design_name} --method {greedy|mcts|ppo} --length LENGTH 
         [--iterations ITERATIONS] [--episodes EPISODES] [--initial_area INITIAL_AREA] 
         [--output OUTPUT_FILE] [--compare]
 """

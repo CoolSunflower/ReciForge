@@ -69,16 +69,20 @@ def ppo_recipe_optimization(design_name, recipe_length, training_episodes=1000, 
         
         def act(self, state, deterministic=False):
             """Select an action based on the current policy."""
-            state = torch.FloatTensor(state).unsqueeze(0)
+            model_device = next(self.parameters()).device
+            state = torch.FloatTensor(state).unsqueeze(0).to(model_device)
             logits, value = self.forward(state)
+
+            dist = Categorical(logits=logits)
             
             if deterministic:
-                action = torch.argmax(logits, dim=1).item()
+                action_tensor = torch.argmax(logits, dim=1)
+                action = action_tensor.item()
                 return action, value.item(), None
             else:
-                dist = Categorical(logits=logits)
-                action = dist.sample().item()
-                log_prob = dist.log_prob(torch.tensor(action))
+                action_tensor = dist.sample()
+                log_prob = dist.log_prob(action_tensor)
+                action = action_tensor.item()
                 return action, value.item(), log_prob.item()
         
         def evaluate(self, states, actions):

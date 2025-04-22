@@ -53,6 +53,6 @@ Refer to the README file in finetuning folder
 ## Optimal Recipe Prediction
 
 Usage:
-    python optimize_recipe.py {design_name} --method {greedy|mcts} --length LENGTH 
-        [--iterations ITERATIONS] [--exploration FACTOR] [--initial_area INITIAL_AREA] 
-        [--output OUTPUT_FILE] [--parallel WORKERS]
+    python predict_recipe.py {design_name} --method {greedy|mcts|ppo} --length LENGTH 
+        [--iterations ITERATIONS] [--episodes EPISODES] [--initial_area INITIAL_AREA] 
+        [--output OUTPUT_FILE] [--compare]

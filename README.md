@@ -1,4 +1,4 @@
-# QoR Area Prediction using Domain-Specific Loss Guided Graph Neural Networks
+# ReciForge: Circuit Area and Optimal Recipe Prediction in Logic Synthesis via Domain-Specific Loss Guided Graph Neural Networks
 
 **REFER TO `Preprint-RecipeOptimization` for detailed theory.**
 
@@ -57,3 +57,4 @@ Usage:
         [--iterations ITERATIONS] [--episodes EPISODES] [--initial_area INITIAL_AREA] 
 
         [--output OUTPUT_FILE] [--compare]
+

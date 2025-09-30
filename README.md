@@ -1,6 +1,6 @@
 # QoR Area Prediction using Domain-Specific Loss Guided Graph Neural Networks
 
-Done as part of ML for EDA Course Project.
+**REFER TO `Preprint-RecipeOptimization` for detailed theory.**
 
 ## Problem Statement & Overview of Methodology
 The goal is to predict the QoR (Area) of a circuit represented in an AIG format, after applying a given recipe.
@@ -55,4 +55,5 @@ Refer to the README file in finetuning folder
 Usage:
     python predict_recipe.py {design_name} --method {greedy|mcts|ppo} --length LENGTH 
         [--iterations ITERATIONS] [--episodes EPISODES] [--initial_area INITIAL_AREA] 
+
         [--output OUTPUT_FILE] [--compare]

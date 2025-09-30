@@ -78,7 +78,3 @@ python predict_recipe.py {design_name} --method {greedy|mcts|ppo} --length LENGT
     [--iterations ITERATIONS] [--episodes EPISODES] [--initial_area INITIAL_AREA] \
     [--output OUTPUT_FILE] [--compare]
 ```
-
----
-
-Would you like me to also **draft a short, polished project description (2–3 sentences)** you can paste directly into your **resume/LinkedIn** alongside this project?

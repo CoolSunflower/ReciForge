@@ -1,60 +1,84 @@
-# ReciForge: Circuit Area and Optimal Recipe Prediction in Logic Synthesis via Domain-Specific Loss Guided Graph Neural Networks
+# ReciForge: Circuit Area and Optimal Recipe Prediction in Logic Synthesis
 
-**REFER TO `Preprint-RecipeOptimization` for detailed theory.**
+**Refer to `Preprint-RecipeOptimization` for detailed theoretical background.**
 
-## Problem Statement & Overview of Methodology
-The goal is to predict the QoR (Area) of a circuit represented in an AIG format, after applying a given recipe.
+## Overview
 
-We propose a hybrid architecture that combines Graph Neural Networks (GNNs) and Recurrent Neural Networks (RNNs) to address the circuit area prediction problem. Our approach leverages the representational power of GNNs to capture the structural properties of circuit designs and the sequential modeling capabilities of RNNs to process synthesis recipes.
+ReciForge is a machine learning framework designed to predict the **Quality of Results (QoR)**—specifically, circuit area—after applying a sequence of synthesis commands (a “recipe”) to a circuit represented in the AIG format.
 
-The overall framework consists of three key components:
-1. Circuit Embedding Module: A GNN-based component that transforms the circuit graph into a fixed-dimensional embedding
-2. Recipe Processing Module: An RNN-based component that processes the sequence of synthesis commands
-3. Area Prediction Module: A prediction component that combines circuit and recipe information to estimate area after each synthesis step
+The framework introduces a **hybrid architecture** that integrates:
 
-Additionally, we introduce domain-specific loss functions that incorporate circuit optimization knowledge to guide the learning process and improve prediction accuracy. These specialized loss functions emphasize relative area reduction, critical optimization steps, attention interpretability, and meaningful circuit representations.
+1. **Circuit Embedding Module** – Graph Neural Networks (GNNs) for structural representation of circuits.
+2. **Recipe Processing Module** – Recurrent Neural Networks (RNNs) for modeling command sequences.
+3. **Area Prediction Module** – A prediction component that combines circuit and recipe embeddings to estimate area at each synthesis step.
 
-The proposed approach not only predicts the final area after applying the complete recipe but also provides a step-by-step prediction of area changes throughout the optimization process, offering valuable insights into the effectiveness of each synthesis command.
+To improve accuracy and interpretability, ReciForge incorporates **domain-specific loss functions** emphasizing:
+
+* Relative area reduction
+* Critical optimization steps
+* Sequential command dependencies
+* Attention interpretability
+* Feature consistency across circuit families
+
+This enables not only **final area prediction** but also **step-by-step area progression tracking**, providing insights into the effectiveness of individual synthesis operations.
 
 ## Experimental Results
-The model was trained for 8 designs in total:
-1. bc0
-2. apex1
-3. c6288
-4. c7552
-5. i2c
-6. max
-7. sasc
-8. simple_spi
 
-The detailed experimental results, training logs and test visualisations are avalaible in `ExperimentalResults` folder.
+ReciForge was trained and evaluated on 8 benchmark designs:
+
+* bc0
+* apex1
+* c6288
+* c7552
+* i2c
+* max
+* sasc
+* simple_spi
+
+Detailed results, training logs, and visualizations are available in the `ExperimentalResults` directory.
 
 ## Code Structure
 
-main.py: Main training script. To run `python main.py {design-name}`. Ensure that {design-name}.bench file is located in the designs folder and {design-name}.csv is located in the datasets folder with relevant random simulations in the format similar to already present file.
+* **main.py** – Main training script. Run as:
 
-loss.py: Utility file used by main.py. It contains the main loss functions (both domain dependent and domain indepdent) that was used in the optimisation process.
+  ```bash
+  python main.py {design-name}
+  ```
 
-visualiser.py: Utility file used by main.py. It contains code for plotting the various graphs saved in the ExperimentalResults folder.
+  Requires `{design-name}.bench` in the `designs` folder and `{design-name}.csv` in the `datasets` folder.
 
-inference.py: Run inference for any recipe and any design (assuming trained model for that design is located in the weights folder). Run `python inference.py {design-name} "rewrite" "balance" "refactor"`
+* **loss.py** – Contains domain-dependent and domain-independent loss functions used in optimization.
 
-ExperimentalResults/*: Contains subfolder for each design, each of which contains the tensorboard training logs, training visualisations, testing visualisations, and training logs.
+* **visualiser.py** – Generates visualizations saved under `ExperimentalResults`.
 
-weights/*: Contains best weights for each of the fine-tuned designs.
+* **inference.py** – Run inference for any recipe on a trained model:
 
-finetuning/*: Contains finetuning scripts and command information
+  ```bash
+  python inference.py {design-name} "rewrite" "balance" "refactor"
+  ```
 
+* **ExperimentalResults/** – Subdirectory per design with TensorBoard logs, training/testing plots, and logs.
 
-## Finetuning
+* **weights/** – Stores the best fine-tuned model weights for each design.
 
-Refer to the README file in finetuning folder
+* **finetuning/** – Includes fine-tuning scripts and usage instructions.
+
+## Fine-Tuning
+
+Refer to the dedicated `finetuning/README.md` for usage details.
 
 ## Optimal Recipe Prediction
 
+ReciForge supports multiple strategies for optimal recipe generation: **Greedy Sampling, Monte Carlo Tree Search (MCTS), and Proximal Policy Optimization (PPO)**.
+
 Usage:
-    python predict_recipe.py {design_name} --method {greedy|mcts|ppo} --length LENGTH 
-        [--iterations ITERATIONS] [--episodes EPISODES] [--initial_area INITIAL_AREA] 
 
-        [--output OUTPUT_FILE] [--compare]
+```bash
+python predict_recipe.py {design_name} --method {greedy|mcts|ppo} --length LENGTH \
+    [--iterations ITERATIONS] [--episodes EPISODES] [--initial_area INITIAL_AREA] \
+    [--output OUTPUT_FILE] [--compare]
+```
 
+---
+
+Would you like me to also **draft a short, polished project description (2–3 sentences)** you can paste directly into your **resume/LinkedIn** alongside this project?
